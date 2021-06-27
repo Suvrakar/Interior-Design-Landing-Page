@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Staatliches&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containerNo{
+    height: 100vh;
+    width: 100wv;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(http://cdn.home-designing.com/wp-content/uploads/2019/04/living-room-pendant-light.jpg);
+}
+
+
+#navbar {
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    top: -80px;
+    width: 100%;
+    display: inline-block;
+    transition: top 0.4s;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+
+
+
+.nbarpop{
+    
+}
+.nav{
+    text-align: center;
+    opacity: 1.0;
+}
+
+
+ul li {
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 15px;
+    opacity: 1.0;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 1.0;
+}
+
+.nbarpop{
+    text-align: center;
+}
+.sidelogo{
+    color: aliceblue;
+    float: left;
+    font-size: 30px;
+    padding-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top:15px; 
+    opacity: 1.0;}
+
+.sidelogo2{
+    color: aliceblue;
+    margin-top: 15px;
+    float: left;
+    font-size: 30px;
+    padding-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 1.0;
+}
+
+.sayhello{
+    color: aliceblue;
+    display: inline-block;
+    font-size: 15px;
+    padding-right: 25px;
+    font-family: 'Montserrat', sans-serif;
+    float:right;
+    margin-top:15px; ;
+    opacity: 1.0;
+}
+
+.sayhello2{
+    color: aliceblue;
+    display: inline-block;
+    font-size: 15px;
+    padding-right: 25px;
+    font-family: 'Montserrat', sans-serif;
+    float:right;
+    width: fit-content;
+    margin-top: 15px;
+    opacity: 1.0;
+}
+
+.slogan{
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 300px;
+    margin-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+
+}
+
+.btn{
+    margin-left: 100px; 
+}
+
+.btn2{
+    margin-top: 40px;
+}
+
+.h{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    background-color: #4b5457;
+    transition: 0.5s;
+}
+
+.h:hover{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    background-color: #4b5457;
+    transition: 0.5s;
+}
+
+.cards{
+    display: flex;
+}
+
+.one{
+    height: 500px;
+    width:33.5%;
+    background-image: url(https://s3-us-west-2.amazonaws.com/prosky/talkingtalent/articles/image_prevs/000/000/157/original/planning.jpg?1563973788);
+    opacity: .4;
+    transition: .5 s;
+    cursor: pointer;
+}
+
+.one:hover{
+    height: 500px;
+    width:33.5%;
+    opacity: .9;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://s3-us-west-2.amazonaws.com/prosky/talkingtalent/articles/image_prevs/000/000/157/original/planning.jpg?1563973788);
+    cursor: pointer;
+    color: #f0f3f7;
+}
+
+.two{
+    height: 500px;
+    width:33.5%;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://images.adsttc.com/media/images/54f7/d4c0/e58e/ce08/b400/025d/medium_jpg/Portada_Casa_A___08023_Arquitectos_-02-ESQ_NOCHE.jpg?1425527985);
+    opacity: .4;
+    transition: .5 s;
+    cursor: pointer;
+}
+
+.two:hover{
+    height: 500px;
+    width:33.5%;
+    cursor: pointer;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://images.adsttc.com/media/images/54f7/d4c0/e58e/ce08/b400/025d/medium_jpg/Portada_Casa_A___08023_Arquitectos_-02-ESQ_NOCHE.jpg?1425527985);
+    opacity: .9;
+    color: #f0f3f7;
+}
+
+
+
+.three{
+    height: 500px;
+    width:33.5%;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://5.imimg.com/data5/LQ/BS/MZ/ANDROID-81832725/1556828896005-jpg-500x500.jpg);
+    opacity: .4;
+    transition: .5 s;
+    cursor: pointer;
+}
+
+.three:hover{
+    height: 500px;
+    width:33.5%;
+  cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://5.imimg.com/data5/LQ/BS/MZ/ANDROID-81832725/1556828896005-jpg-500x500.jpg);
+    opacity: .9;
+    color: #f0f3f7;
+}
+
+
+.MidNum{
+    text-align: center;
+    font-size: 160px;
+    color: grey;
+    opacity: .6;
+    margin-top: 250px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.stlCol{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ourWork{
+    width: 100vw;
+    height:2590px;
+    background-color: #f0f3f7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ourWork2{
+    background-color: #f0f3f7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.oneside{
+height: 400px;
+width: 40%;
+background: url(https://preview.colorlib.com/theme/interior2/img/works/x1.png.pagespeed.ic.joMCYtdVbG.webp);
+margin-right: 60px;
+}
+
+.anotherside{
+    height: 400px;
+    width: 40%;
+    margin-right: 60px;
+
+}
+
+.twoSideCard{
+    display: flex;
+    justify-content: center;
+}
+
+.twoSideCard2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+
+}
+
+.Head{
+    margin-left: 110px;
+    margin-bottom: 60px;
+    padding-top: 100px;
+}
+
+.padd{
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+
+.midpic{
+    display: flex;
+}
+
+.pic{
+    height: 600px;
+    width: 50%;
+    background: url(https://preview.colorlib.com/theme/interior2/img/creative_mind/x1.png.pagespeed.ic.ATsa1swhwi.webp);
+   
+}
+
+.percentage{
+    height: 400px;
+    width: 40%;
+    margin-left: 60px;
+
+}
+
+.Phead{
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.insta{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    font-size: 50px ;
+}
+
+
+.threepic{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.onepic{
+    margin-right: 30px;
+    height: 200px;
+    width: 25%;
+    background: url(https://preview.colorlib.com/theme/interior2/img/instragram/x1.png.pagespeed.ic.3j6S1N2ByT.webp);
+}
+
+.secpic{
+    margin-right: 30px;
+    height: 200px;
+    width: 25%;
+    background: url(https://preview.colorlib.com/theme/interior2/img/instragram/x2.png.pagespeed.ic.x4EXSRIorX.webp);
+}
+
+.thrdpic{
+    height: 200px;
+    width: 25%;
+    background: url(https://preview.colorlib.com/theme/interior2/img/instragram/x3.png.pagespeed.ic.Xxymv_K6Jy.webp);
+}
+
+.blue{
+    background-color: #1d2b42;
+    width: 100vw;
+    height: 500px;
+}
+
+.query{
+    font-size: 30px;
+    color: #f0f3f7;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.la{
+    margin-top: 30px;
+}
+
+.number{
+    float: right;
+    color: #f0f3f7;
+    margin-right: 100px;
+    font-size: 30px ;
+   padding-top: 30px;
+   font-family: 'Montserrat', sans-serif;
+
+}
+
+.lines{
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.mail{
+    color:rgb(216, 63, 8);
+    text-decoration: none;
+}
+
+.mail:hover{
+
+}
+hr.line{
+    border: .5 px solid white;
+    display: inline-block;
+    width: 1250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 88);
+    
+}
+hr.line1{
+    border: .5 px solid rgb(255, 255, 88);;
+    display: inline-block;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+
+hr.line2{
+    height: 3px;
+    display: inline-block;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    background-color: #333; /* Modern Browsers */
+    
+}
+hr.line3{
+    height: 3px;
+    display: inline-block;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    background-color: #333; /* Modern Browsers */
+    
+}
+
+hr.line4{
+    height: 3px;
+    display: inline-block;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    background-color: #333; /* Modern Browsers */
+    
+}
+
+.footernote{
+    display: flex;
+}
+
+.footHead{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.footPara{
+    font-size: 15px;
+    text-align: justify;
+    margin-right: 50px;
+    padding-bottom: 10px;
+}
+
+.comapnysidedeo{
+    padding-left: 150px;
+}
+
+.textfield{
+    border-radius: 25px;
+    background-color: #1d2b42;
+    color:white;
+}
+
+.newsletter_form {
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 140px;
+    padding-left: 10px;
+}
+
+.form{
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 35px;
+    background: transparent;
+    color: #ddd;
+    padding-left: 20px;
+    outline:none;
+}
+
+.subbtn{
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(197, 197, 197);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-left:15px ;
+    padding-right:15px ;
+    
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.ArchitectureLikha{
+    
+}
+
+.uporerlikha{
+    display: flex;
+}
+
+.frstHead{
+    padding-right: 230px;
+}
+
+.secHead{
+    padding-right: 200px;
+}
+
+.thrdHead{
+    padding-right: 170px;
+}
+
+
+.seventypcnt{
+    padding-top: 30px;
+}
+
+.ArcHead{
+    float: left;
+}
+
+.ArcPer{
+    float: right;
+}
+
+.detailHead{
+    display: flex;
+    justify-content: center;
+
+}
+
+.HeadDetail{
+    margin-top: 70px;
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.para1{
+    text-align: justify;
+    width: 50%;;
+    height: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.para2{
+    text-align: justify;
+    width: 50%;;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.detailpic{
+    display: flex;
+    justify-content: center;
+}
+
+.pic1{
+    background: url(https://preview.colorlib.com/theme/interior2/img/details-img/x1.png.pagespeed.ic.uzNWmbYpKr.webp);
+    height: 400px;
+    width: 40%;
+    margin-right: 20px;
+}
+
+.pic2{
+    background: url(https://preview.colorlib.com/theme/interior2/img/details-img/x2.png.pagespeed.ic.v-r3iMEYSe.webp);
+    height: 400px;
+    width: 40%;
+    margin-left: 20px;
+}
